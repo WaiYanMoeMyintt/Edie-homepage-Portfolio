@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+*{
+   text-decoration: none;
+   list-style-type: none;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+html{
+   scroll-behavior: smooth;
+}
+body{
+   /* font-family: 'Roboto', sans-serif; */
+   font-family: 'Open Sans', sans-serif;
+   height: 180vh;
+   width: 100%;
+   overflow-y: hidden;
+}
+/* navigation bars start*/
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-flow:row wrap;
+   gap:0;
+   position: fixed;
+   top:0;
+   left:0;
+   background-color:#fff;
+   z-index: 12;
+   padding:.5% 3%;
+   width: 100%;
+   user-select: none;
+}
+nav .nav-title a{
+   display: inline-block;
+   font-size:1.8rem;
+   font-weight: 900;
+   letter-spacing: .5px;
+   color: #000;
+   transition: color .3s ease;
+}
+nav .nav-title a {
+   color: rgb(15, 15, 15);
+}
+.nav-links-container  {
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap:35px;
+   flex-wrap: wrap;
+}
+.nav-links-container li a {
+   display: inline-block;
+   color:#000;
+   font-size: 1.2rem;
+   letter-spacing: .5px;
+   font-weight: 700;
+   transition:all .4s ease;
+}
+.nav-links-container li a:hover{
+   color: rgb(20, 20, 20);
+}
+
+/* navigation bars end */
