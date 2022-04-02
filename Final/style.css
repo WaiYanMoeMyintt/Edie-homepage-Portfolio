@@ -284,7 +284,7 @@ header{
    position: relative;
    top:25%;
    left: 2%;
-   height: 100%;
+   /* height: 100%; */
 }
 header h2{
    font-size: 2rem;
@@ -381,13 +381,13 @@ header .header-link{
 /* clients section start */
 .clients-section{
    position: relative;
-   top: 50%;
+   top: 30%;
    display: flex;
    justify-content:space-between;
    flex-wrap: wrap;
    flex-direction: row;
    align-items: center;
-   height: 50%;
+   /* height: 50%; */
    padding:0 5%;
 }
 .clients-section .client-sub-section a {
@@ -437,7 +437,7 @@ header .header-link{
 /* quote section start */
 .quote-container{
    position: relative;
-   top:50%;
+   top:37%;
    left: 4%;
 }
 .quote-container h3{
@@ -472,5 +472,4 @@ header .header-link{
    font-weight: 800;
    color:rgb(79,79,79)
 }
-
 /* quote section end */
