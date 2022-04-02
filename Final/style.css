@@ -388,7 +388,7 @@ header .header-link{
    flex-direction: row;
    align-items: center;
    height: 50%;
-   padding:0 4%;
+   padding:0 5%;
 }
 .clients-section .client-sub-section a {
    color: rgb(235, 36, 36);
@@ -433,3 +433,44 @@ header .header-link{
    margin-left:10px;
 }
 /* clients section end */
+
+/* quote section start */
+.quote-container{
+   position: relative;
+   top:50%;
+   left: 4%;
+}
+.quote-container h3{
+   font-size: 1.5rem;
+   color: #000;
+   letter-spacing: .5px;
+   word-wrap: wrap;
+   word-spacing: .6px;
+   font-family: 800;
+   padding:10px 0;
+}
+.quote-person{
+   padding-top: 2%;
+   padding-left: 8px;
+   width: 30%;
+   display: flex;
+   align-items: center;
+   gap:15px;
+}
+.quote-person-img a img{
+   display: inline-block;
+   max-width: 80px;
+   height: auto;
+   border-radius: 12px;
+}
+.quote-text strong{
+   color: red;
+   font-weight: 800;
+}
+.quote-text p{
+   padding: 10px 0;
+   font-weight: 800;
+   color:rgb(79,79,79)
+}
+
+/* quote section end */
