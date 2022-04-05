@@ -64,6 +64,17 @@ nav .nav-title a {
 .nav-links-container li a:hover{
    color: rgb(20, 20, 20);
 }
+.navbar-menu{
+     display: none;
+}
+.navbar-menu .bars{
+   display: block;
+   width: 25px;
+   height: 3px;
+   background-color: #000;
+   cursor: pointer;
+   margin: 3px;
+}
 
 /* navigation bars end */
 
@@ -484,7 +495,7 @@ header .header-link{
    display: flex;
    justify-content:space-between;
    gap:25px;
-   flex-flow:row gap;
+   flex-flow:row wrap;
    flex-basis: 300px;
    user-select: auto;
    padding:2% 6%;
@@ -581,3 +592,101 @@ header .header-link{
 }
 /* 
 footer section end */
+
+/* media query section :start */
+
+/* for medium screen devices 768px start point */
+
+
+/* for medium screen devices 768px end point */
+@media screen and (max-width:768px) {
+   nav{
+      width: 100%;
+   }
+   .navbar-menu{
+      display: block;
+   }
+   .nav-links-container{
+      display: none;
+   }
+   main {
+      position: relative;
+      top:5%;  
+   }
+   section h2{
+      padding-bottom: 20px;
+   }
+   section .section-container{
+      display: flex;
+      gap:40px;
+      padding:0 5%;
+   }
+   .section-container .front-end,.back-end{
+      margin-top:20px;
+   }
+   header{
+      position: relative;
+      top:18%;
+   }
+   header h2{
+      margin-bottom: -20px;
+   }
+   .header-container .image-section-1 .image-2{
+      transform: translateY(50px);
+   }
+  .header-container .image-section-2 .image-3 {
+     transform: translateY(100px);
+   } 
+   .header-container .image-section-2 .image-4{
+      transform: translateY(150px);
+   } 
+   header .header-link{
+      transform: translateY(180px);
+   }
+   .clients-section{
+      position: relative;
+      top:40%;
+   }
+   .clients-section .client-sub-section{
+      padding:20px 0;
+   }
+   .quote-container{
+      width: 100%;
+      position: relative;
+      top:45%;
+   }
+   .quote-container h3{
+      width: 100%;
+      font-size: 1.2rem;
+      letter-spacing: .4px;
+      word-spacing: 1px;
+      padding:20px 0;
+      line-height:35px;
+   }
+   .quote-person .quote-person-img a img{
+       max-width: 200px;
+       height: auto;
+       border-radius: 6px;
+   }
+   .quote-person .quote-text{
+      user-select: none;
+      width: 100%;
+      transform: translateX(20px);
+   }
+   .quote-person .quote-text strong{
+      font-size: 1.1rem;
+      text-align: center;
+   }
+   .footer-section-container{
+      display: flex;
+      flex-direction:row;
+      height: 300px;
+   }
+   .footer-section-container .footer-contact{
+      margin-left: 30px;
+      padding:5px 0;
+   }
+   
+}
+
+/* media query section :end */
