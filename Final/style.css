@@ -473,3 +473,111 @@ header .header-link{
    color:rgb(79,79,79)
 }
 /* quote section end */
+
+/* footer section start  */
+.footer-section-container{
+   position: relative;
+   top:50%;
+   width: 100%;
+   height: 200px;
+   background-color: #100E1D;
+   display: flex;
+   justify-content:space-between;
+   gap:25px;
+   flex-flow:row gap;
+   flex-basis: 300px;
+   user-select: auto;
+   padding:2% 6%;
+}
+.footer-links ul li a{
+   display: block;
+   padding:5px 0;
+   font-size: 1rem;
+   color:#fff;
+   font-weight: 500;
+   letter-spacing: .5px;
+   transition: color .4s ease;
+}
+.footer-links ul li a:hover{
+   color:rgb(255, 250, 250);
+}
+.footer-icons h3 a{
+   display: block;
+   font-size: 1.6rem;
+   padding:15px 0;
+   font-weight: 800;
+   letter-spacing: .5px;
+   color: #fff;
+   text-align: center;
+}
+.footer-icons .icon-links  {
+   margin-top: 4px;
+   display: flex;
+   gap:15px;
+   align-items: center;
+}
+.footer-icons .icon-links a {
+   color: #fff;
+   font-size: 1.1rem;
+   transition: color .4s ease;
+}
+.footer-icons .icon-links a:hover{
+   color: rgb(233, 227, 227);
+}
+.footer-contact p{
+   font-size: .9rem;
+   font-weight: 600;
+   color: #fff;
+   padding:5px 0;
+   letter-spacing: .5px;
+   text-align: center;
+   user-select: none;
+}
+.footer-contact .contact-btn{
+   margin-top: 15px;
+   position: relative;
+   left:35px;
+}
+.contact-btn input{
+   background-color: #fff;
+   padding:12px 45px;
+   border-radius: 10px;
+   font-size: 1rem;
+   color: #000;
+   outline: none;
+   border: none;
+   transition: all .4s ease;
+   position: relative;
+   top:0;
+}
+.contact-btn input::placeholder{
+   color: #000;
+   transform: translateX(-3px);
+}
+.contact-btn input:focus{
+   border: none;
+   outline: none;
+   transform: translateY(-1px);
+}
+.contact-btn button{
+   background-color: #2D9CDB;
+   color: #fff;
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 12px;
+   font-size: 1rem;
+   font-weight: 500;
+   text-align: center;
+   border: none;
+   outline: none;
+   position: absolute;
+   right: 3px;
+   top:1.4px;
+   cursor: pointer;
+   transition: all .4s ease;
+}
+.contact-btn button:hover{
+   background-color: #108ad1;
+}
+/* 
+footer section end */
