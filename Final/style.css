@@ -754,4 +754,68 @@ footer section end */
    }
 }
 
+/* small small devices  */
+
+@media screen and (max-width:320px) {
+
+   nav{
+      position: relative;
+      top:8px;
+   }
+   .nav-links-container.show{
+      margin-left: 12px;
+   }
+   .navbar-menu {
+      position: relative;
+      right: 3%;
+   }
+   .edie-title h1{
+      width: 70%;
+      font-size: 2.2rem;
+   }
+   .edie-sub-title h1{
+      font-size: 2rem;
+      line-height: 40px;
+   }
+   .edie-sub-title p{
+      font-size: .9rem;
+      width: 60%;
+   }
+   .edie-email a {
+      margin-top: 10px;
+      padding:8px 45px;
+   }
+   .header-container{
+      height: 120%;
+   }
+   .header-container .image-section-1 .image-1 a img, .image-section-1 .image-2 a img ,
+   .image-section-2 .image-3 a img, .image-section-2 .image-4 a img
+   {
+      max-width: 250px;
+      height: auto;
+      margin-left: 12px;
+   }
+   .header-link a{
+      transform: translate(-10px,40px);
+   }
+   .clients-section{
+      margin-top: 45px;
+   }
+   .client-img-section .client-img-sub-section .image-active{
+      display: block;
+      transform: translateX(-10px);
+   }
+   
+   .quote-container h3{
+      font-size: 1.3rem;
+   }
+   .quote-person{
+      padding:8px 0;
+      margin-top: 10px;
+   }
+  .quote-person .quote-person-img a img{
+      max-width: 150px;
+   }
+}
+
 /* media query section :end */
