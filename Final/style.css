@@ -608,7 +608,7 @@ footer section end */
    .navbar-menu{
       display: block;
       position: relative;
-      right: 10%;
+      right: 3%;
       transition: border .3s ease;
    }
    .nav-links-container{
@@ -620,7 +620,7 @@ footer section end */
       z-index: 12;
       transform: translate(-80px,-60px);
       width: 65%;
-      height: 110%;
+      height: 120%;
       background-color:rgb(248, 241, 241);
       display: flex;
       flex-direction: column;
@@ -632,11 +632,6 @@ footer section end */
       border-bottom: 1px solid rgb(255, 255, 255);
       background-color:rgb(238, 238, 238);
       padding:0 45px;
-   }
-   .navbar-menu:active{
-      border: 2px solid rgb(177, 176, 176);
-      border-width: 3px;
-      transition: border .6s ease;
    }
    main {
       position: relative;
