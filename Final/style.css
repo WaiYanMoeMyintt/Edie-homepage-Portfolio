@@ -727,7 +727,31 @@ footer section end */
    .footer-section-container .footer-contact{
        transform: translateX(-25px);
    }
-   
+}
+/* small devices */
+@media screen and (max-width:480px) {
+   .navbar-menu{
+      position: relative;
+      right: 3%;
+   }
+   .header-container{
+      /* background-color: blueviolet; */
+      position: relative;
+      right: 20px;
+   }
+   .header-container .image-section-1 .image-1 a img, .image-section-1 .image-2 a img ,
+   .image-section-2 .image-3 a img, .image-section-2 .image-4 a img
+   {
+      max-width: 400px;
+      height: auto;
+   }
+   .footer-section-container{
+      height: 430px;
+   }
+   .footer-section-container .footer-contact{
+      margin-top: 15px;
+      transform: translateX(-80px);
+   }
 }
 
 /* media query section :end */
