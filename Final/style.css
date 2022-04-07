@@ -67,9 +67,9 @@ nav .nav-title a {
 .navbar-menu{
      display: none;
 }
-.navbar-menu .bars{
+.navbar-menu .bar{
    display: block;
-   width: 25px;
+   width: 28px;
    height: 3px;
    background-color: #000;
    cursor: pointer;
@@ -605,9 +605,37 @@ footer section end */
    }
    .navbar-menu{
       display: block;
+      position: relative;
+      right: 10%;
+      
+      transition: border .3s ease;
    }
    .nav-links-container{
       display: none;
+   }
+   .nav-links-container.show{
+      position: fixed;
+      top:-60px;
+      z-index: 12;
+      transform: translate(-80px,-150px);
+      width: 50%;
+      height: 110%;
+      background-color:rgb(248, 241, 241);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition:all .7s ease;
+   }
+   .nav-links-container li:hover{
+      border-bottom: 1px solid rgb(255, 255, 255);
+      background-color:rgb(238, 238, 238);
+      padding:0 45px;
+   }
+   .navbar-menu:active{
+      border: 2px solid rgb(177, 176, 176);
+      border-width: 3px;
+      transition: border .6s ease;
    }
    main {
       position: relative;
@@ -685,6 +713,15 @@ footer section end */
    .footer-section-container .footer-contact{
       margin-left: 30px;
       padding:5px 0;
+   }
+}
+/* for medium screen devices 768px end point */
+
+/* for medium screen devices 576px start point */
+
+@media screen and (max-width:576px) {
+   body{
+      background-color: red;
    }
    
 }
