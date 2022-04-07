@@ -608,7 +608,7 @@ footer section end */
    .navbar-menu{
       display: block;
       position: relative;
-      right: 3%;
+      right: 2%;
       transition: border .3s ease;
    }
    .nav-links-container{
@@ -716,9 +716,17 @@ footer section end */
 /* for medium screen devices 576px start point */
 
 @media screen and (max-width:576px) {
-   /* body{
-      background-color: red;
-   } */
+   .navbar-menu{
+      position: relative;
+      right: 3%;
+   }
+   .footer-section-container .footer-links{
+      /* background-color: blue; */
+      width: 100%;
+   }
+   .footer-section-container .footer-contact{
+       transform: translateX(-25px);
+   }
    
 }
 
