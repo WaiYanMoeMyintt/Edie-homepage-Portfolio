@@ -754,12 +754,13 @@ footer section end */
       height: auto;
    }
    .footer-section-container{
-      height: 430px;
+      height: 600px;
    }
    .footer-section-container .footer-contact{
       margin-top: 15px;
       transform: translateX(-80px);
    }
+
 }
 
 /* small small devices  */
@@ -823,6 +824,9 @@ footer section end */
    }
   .quote-person .quote-person-img a img{
       max-width: 150px;
+   }
+   .footer-section-container{
+      height: 400px;
    }
 }
 
