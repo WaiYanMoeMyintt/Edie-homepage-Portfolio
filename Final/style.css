@@ -489,7 +489,7 @@ header .header-link{
    position: relative;
    top:50%;
    width: 100%;
-   height: 200px;
+   height: 300px;
    background-color: #100E1D;
    display: flex;
    justify-content:space-between;
@@ -588,6 +588,14 @@ header .header-link{
 }
 .contact-btn button:hover{
    background-color: #108ad1;
+}
+iframe{
+   width: 280px;
+   height: auto;
+   padding: auto 90px;
+   border-radius: 10px;
+   margin:20px 0;
+   transform: translateX(36px);
 }
 /* 
 footer section end */
@@ -704,7 +712,7 @@ footer section end */
    .footer-section-container{
       display: flex;
       flex-direction:row;
-      height: 300px;
+      height: 480px;
    }
    .footer-section-container .footer-contact{
       margin-left: 30px;
