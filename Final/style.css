@@ -764,13 +764,19 @@ footer section end */
 }
 /* medium devices */
 @media screen and (max-width:410px) {
+
+   .edie-email a {
+      display: block;
+      margin-top: 15px;
+      width: 36%;
+   }
    .header-container {
       padding-left:15px;
    }
     .header-container .image-section-1 .image-1 a img,
     .header-container .image-section-1 .image-2 a img
     {
-       width: 350px;
+       width: 300px;
        height: auto;
     }
     .header-container .image-section-2 .image-3 a img,
