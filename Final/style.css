@@ -762,7 +762,28 @@ footer section end */
    }
 
 }
-
+/* medium devices */
+@media screen and (max-width:410px) {
+   .header-container {
+      padding-left:15px;
+   }
+    .header-container .image-section-1 .image-1 a img,
+    .header-container .image-section-1 .image-2 a img
+    {
+       width: 350px;
+       height: auto;
+    }
+    .header-container .image-section-2 .image-3 a img,
+    .header-container .image-section-2 .image-4 a img
+    {
+       width: 350px;
+       height: auto;
+    }
+    .header-link a{
+       margin-top: 30px;
+    }
+   
+}
 /* small small devices  */
 
 @media screen and (max-width:320px) {
